@@ -1,0 +1,13 @@
+{
+  "home.Home Page": "Домашняя страница",
+  "home.You are logged in as": "Вы вошли как  ",
+  "home.Log out": "Выход",
+
+  "login.Log in": "Вход",
+  "login.Username": "Имя пользователя",
+  "login.Password": "Пароль",
+  "login.Username is required": "Имя пользователя не указано",
+  "login.Password is required": "Пароль не указан",
+
+  "translation.select-language": "Язык"
+}

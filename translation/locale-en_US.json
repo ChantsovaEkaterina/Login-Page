@@ -1,0 +1,13 @@
+{
+  "home.Home Page": "Home Page",
+  "home.You are logged in as": "You are logged in as ",
+  "home.Log out": "Log out",
+
+  "login.Log in": "Log in",
+  "login.Username": "Username",
+  "login.Password": "Password",
+  "login.Username is required": "Username is required",
+  "login.Password is required": "Password is required",
+
+  "translation.select-language": "Language"
+}

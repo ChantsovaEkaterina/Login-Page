@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login Page</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="pull-right">
+        <div ng-translate-language-select></div>
+      </div>
+
+      <div ng-view></div>
+    </div>
+
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-translate/dist/angular-translate.js"></script>
+    <script src="bower_components/angular-translate/dist/angular-translate-loader-static-files/angular-translate-loader-static-files.js"></script>
+    <script src="bower_components/angular-translate/dist/angular-translate-storage-cookie/angular-translate-storage-cookie.js"></script>
+    <script src="bower_components/angular-translate/dist/angular-translate-storage-local/angular-translate-storage-local.js"></script>
+    <script src="bower_components/angular-translate-handler-log/angular-translate-handler-log.js"></script>
+    <script src="bower_components/angular-dynamic-locale/src/tmhDynamicLocale.js"></script>
+    <script src="app.js"></script>
+    <script src="login/login.js"></script>
+    <script src="home/home.js"></script>
+    <script src="translation/translate.js"></script>
+    <script src="translation/LocaleService.js"></script>
+    <script src="translation/LanguageSelectDirective.js"></script>
+  </body>
+</html>
